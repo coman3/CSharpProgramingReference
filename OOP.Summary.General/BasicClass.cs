@@ -6,7 +6,7 @@
  *   
  *      This document contains a very basic C# class structure.
  *      If you are just starting with this solution, i would highly
- *      reconmenend you start here, and move on to other files within 
+ *      recommended you start here, and move on to other files within 
  *      the General Project for more examples.
  *  
  * 
@@ -19,8 +19,8 @@
 *       (mailto:me@lachlanvelden.com) (https://lachlanvelden.com)
 *       
 *       Do not distribute any source from this solution, in its entirety
-*       or seperated without explicit permision from the document creator.  
-*       Permision is granted by a friendly email request.
+*       or separated without explicit permission from the document creator.  
+*       permission is granted by a friendly email request.
 * 
 *       Thank you for your understanding. 
 */
@@ -43,8 +43,8 @@ namespace OOP.Summary.General
         /// The name of the game.
         /// </summary>
         public string Name { get; set; }
-        // Name is an 'auto' Property. Properties will automaticly generate a private field, with both `{FieldType} Get{FieldName}` and `void Set{FieldName}({Type} value)`
-        // These are very usefull, as we can specify if we want to allow public setting or getting.
+        // Name is an 'auto' Property. Properties will automatically generate a private field, with both `{FieldType} Get{FieldName}` and `void Set{FieldName}({Type} value)`
+        // These are very useful, as we can specify if we want to allow public setting or getting.
         // More Information on properties in the Properties Project
 
 
@@ -55,7 +55,7 @@ namespace OOP.Summary.General
 
         // ReleaseDate is a field. Fields are the more basic way of object storage (variables)
         // These are mostly used if you do not need to specify if you can access setting or getting.
-        // Again more infomation on these, and how it is recomended to use them, can be found in the Fields Project.
+        // Again more information on these, and how it is recommended to use them, can be found in the Fields Project.
 
 
         #endregion
@@ -63,16 +63,16 @@ namespace OOP.Summary.General
 
         #region Procedures & Functions
         /// <summary>
-        /// Set the games desciption.
+        /// Set the games description.
         /// 
         /// <remarks>
-        /// Supports Multiline markdown formating
+        /// Supports Multi line markdown formating in description field
         /// </remarks>
         /// </summary>
         /// <param name="description"></param>
         public void SetDescription(string description)
         {
-            // Pretend we are doing some fancy thingy to descrption here... (im too lazy to write fake code tbh)
+            // Pretend we are doing some fancy thingy to description here... (im too lazy to write fake code tbh)
             this.Description = description;
         }
         // SetDescription is a Method. Methods execute a returnless set of instructions.
@@ -80,10 +80,10 @@ namespace OOP.Summary.General
 
 
         /// <summary>
-        /// Gets the games desciption.
+        /// Gets the games description.
         /// 
         /// <remarks>
-        /// Supports Multiline markdown formating
+        /// Supports Multi line markdown formating
         /// </remarks>
         /// </summary>
         /// <param name="description"></param>

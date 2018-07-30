@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Summary.General", "OOP.Summary.General\OOP.Summary.General.csproj", "{02951239-84F9-46BA-B187-55DCF05FD35F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Summary.Resources", "OOP.Summary.Resources\OOP.Summary.Resources.csproj", "{6BD0EE9A-7B49-4959-90CD-BF9F837F5DF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hidden", "Hidden", "{D9FD61DD-5674-49C6-850A-B0A4EAFAA9FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{02951239-84F9-46BA-B187-55DCF05FD35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02951239-84F9-46BA-B187-55DCF05FD35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02951239-84F9-46BA-B187-55DCF05FD35F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD0EE9A-7B49-4959-90CD-BF9F837F5DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD0EE9A-7B49-4959-90CD-BF9F837F5DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD0EE9A-7B49-4959-90CD-BF9F837F5DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD0EE9A-7B49-4959-90CD-BF9F837F5DF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6BD0EE9A-7B49-4959-90CD-BF9F837F5DF7} = {D9FD61DD-5674-49C6-850A-B0A4EAFAA9FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A35CFF6-FEB5-4039-9C86-7B476F8141A6}
